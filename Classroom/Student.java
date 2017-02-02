@@ -79,25 +79,25 @@ public class Student
 	
 	
 	
-	public static String older(Student s1, Student s2)
+	public static Student older(Student s1, Student s2)
 	{
 		if (s1.age>s2.age)
 		{
-			return s1.name;
+			return s1;
 		}
 		else
-			return s2.name;
+			return s2;
 	
 	}
 	
-	public String older(Student s1)
+	public Student older(Student s1)
 	{
 		if (age>s1.age)
 		{
-			return name;
+			return this;
 		}
 		else
-			return s1.name;
+			return s1;
 	}
 	
 }

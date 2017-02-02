@@ -1,71 +1,92 @@
 public class Classroom
 {
-	private Student s1;
-	private Student s2;
-	private Student s3;
-	private Student s4;
 	
 	private Student[] section;
+	private int period;
 	
-	
+
 	public Classroom()
 	{
-		this(new Student(),  new Student(15,9), new Student(17,11,"Neil"), new Student(18,12,"Dylan"));
+		section = new Student[13];  //initializing
 		
-		section = new Student[13];
-		section[0] = new Student;
-	
+		for (int i = 0; i < section.length; i ++)
+		{
+			section[i] = new Student();
+		}	
+		
+		
+		period = 0;  //initializes period
+		//this(new Sudent(), new Student(14, 9));
 	}
 
-	public Classroom(Student st1,Student st2,Student st3,Student st4)
+	public Classroom(Student[] a, int p)
 	{
-		s1 = st1;
-		s2 = st2;
-		s3 = st3;
-		s4 = st4;
+		section = a;
+		period = p;
 	}
 	
 	
-	public Student getS1()
+	
+	//accessors
+	public Student[] getSection()
 	{
-		return s1;
+		return section;
 	}
-	public Student getS2()
+	
+	public Student getStudent(int i)
 	{
-		return s2;	
-	}
-	public Student getS3()
+		return section[i];
+	}	
+	
+	public int getPeriod()
 	{
-		return s3;
+		return period;
 	}
-	public Student getS4()
-	{
-		return s4;	
-	}
+	
+
 	
 	
 	//modifiers
-	public void setS1(Student s)
+	public void setStudent(int i, Student s)
 	{
-		s1=s;
+		section[i] = s;
 	}
-	public void setS2(Student s)
+
+
+	public void setPeriod(int i)
 	{
-		s2=s;
+		period = i;
 	}
-	public void setS3(Student s)
-	{
-		s3=s;
-	}
-	public void setS4(Student s)
-	{
-		s4=s;
-	}
-	
-	
+
+
+
+
+	//toString method
 	public String toString()
 	{
-		return s1.toString()+ " " + s2.toString() + " " + s3.toString() + " " + s4.toString();
+		String s = "";
+		s += "period: " + period + "\n";
+		
+		for (int i = 0; i < section.length; i ++)
+		{
+			s+= section[i].toString() + "\n";
+		}
+		return s;
+		
 	
-	}
+	}	
+	
+	
+	public Student findOldest()
+	{
+		Student oldest = section[0];
+		
+		for (int i = 1; i < section.length; i ++)
+		{
+			oldest = oldest.older(section[i]);
+
+		}
+		return oldest;
+	}	
+
 }

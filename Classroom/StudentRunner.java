@@ -19,8 +19,20 @@ public class StudentRunner
 		System.out.println(s3.getGrade());
 		System.out.println(s3.getName());
 		System.out.println(Student.getNumStudents());
+		
 		System.out.println(s1.older(s2));
 		System.out.println(Student.older(s3, s1));
+		
+		
+		Classroom apcs = new Classroom(); //apcs is instance of classroom
+		apcs.setStudent(0, s1);
+		apcs.setStudent(1, s2);
+		apcs.setStudent(2, s3);
+		apcs.setStudent(3, s4);
+		
+		System.out.println(apcs);
+		System.out.println(apcs.findOldest());
+	
 	}
 
 
