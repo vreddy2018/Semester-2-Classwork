@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Sports()
+comment1.params=s
+comment1.target=Sports(java.lang.String)
+comment2.params=s\ e
+comment2.target=Sports(java.lang.String,\ java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getSeason()
+comment4.params=
+comment4.target=java.lang.String\ getEquipment()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment6.params=
+comment6.target=double\ totalplayers()
+numComments=7
