@@ -7,5 +7,12 @@
  */
 public class Tennis extends Sports
 {
- 
+    public Tennis()
+    {
+        super();
+    }
+    public Tennis(String s, String e, int p, int t)
+    {
+        super(s,e,p,t);
+    }
 }

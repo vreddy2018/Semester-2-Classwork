@@ -8,4 +8,11 @@
 public class Golf extends Sports
 {
 
+    public int totalPlayers()
+    {
+        return 1;
+    }
+
+    
+    
 }

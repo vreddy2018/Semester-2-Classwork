@@ -37,7 +37,7 @@ public class Runner
         Rectangle r1 = new Rectangle();
         System.out.println(s3.area());
         System.out.println(r1.area());*/
-        /* Animal a = new Animal();
+        Animal a = new Animal();
         System.out.println(a instanceof Animal);
         System.out.println(a instanceof Object);
         
@@ -53,7 +53,7 @@ public class Runner
         System.out.println(r instanceof Object);
         System.out.println(am instanceof Animal);
         //System.out.println(am instanceof Human);
-        System.out.println(a instanceof Human);*/
+        System.out.println(a instanceof Human);
         
         Square sq = new Square();
         Rectangle rt = new Rectangle();

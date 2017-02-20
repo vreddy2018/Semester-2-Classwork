@@ -1,2 +1,6 @@
 #BlueJ class context
-numComments=0
+comment0.params=
+comment0.target=Tennis()
+comment1.params=s\ e\ p\ t
+comment1.target=Tennis(java.lang.String,\ java.lang.String,\ int,\ int)
+numComments=2

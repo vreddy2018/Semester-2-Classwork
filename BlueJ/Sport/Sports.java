@@ -9,22 +9,23 @@ public class Sports
 {
     private String season;
     private String equipment;
+    private int players;
+    private int teams;
     
     public Sports()
     {
         season = "Fall";
         equipment = "Ball";
+        players = 1;
+        teams = 2;
     }
     
-    public Sports(String s)
-    {
-        season = s;
-    }
-   
-    public Sports(String s, String e)
+    public Sports(String s, String e, int p, int t)
     {
         season = s;
         equipment = e;
+        players = p;
+        teams = t;
     }
     
     public String getSeason()
@@ -37,13 +38,25 @@ public class Sports
         return equipment;
     }
     
+    public int getPlayers()
+    {
+        return players;
+    }
+    public int getTeams()
+    {
+        return teams;
+    }
     public String toString()
     {
-        return "Season: " + season + ", equipment; " + equipment;
+        return "Season: " + season + ", equipment; " + equipment + "\n Players: " + players +", teams: " + teams;
     }
     
-    public double totalplayers()
+    public int totalPlayers()
     {
-    return 0;}
-
+        return teams*players;
+    }
+    public boolean equals(Sports s)
+    {
+        return this.totalPlayers() == s.totalPlayers();
+    }
 }
