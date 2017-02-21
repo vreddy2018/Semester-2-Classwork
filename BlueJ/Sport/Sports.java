@@ -59,4 +59,8 @@ public class Sports
     {
         return this.totalPlayers() == s.totalPlayers();
     }
+    public boolean equals(String season)
+    {
+        return season.equals(this.season);
+    }
 }

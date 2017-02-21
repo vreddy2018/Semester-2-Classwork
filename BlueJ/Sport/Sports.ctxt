@@ -17,4 +17,6 @@ comment7.params=
 comment7.target=int\ totalPlayers()
 comment8.params=s
 comment8.target=boolean\ equals(Sports)
-numComments=9
+comment9.params=season
+comment9.target=boolean\ equals(java.lang.String)
+numComments=10
