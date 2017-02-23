@@ -138,7 +138,7 @@ public class Student
 	
 	/**
 	* Returns the name and information of the student as a string
-	* @param String - the name of the student with their age and grade in a readable format
+	* @return String - the name of the student with their age and grade in a readable format
 	*/
 	public String toString()
 	{
