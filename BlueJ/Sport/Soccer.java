@@ -1,10 +1,7 @@
-
 /**
- * Write a description of class Soccer here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
+* Authors: Ami, Neil, Dhruv
+* This class calls the super class sports
+*/
 public class Soccer extends Sports
 {
    

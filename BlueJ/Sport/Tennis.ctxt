@@ -1,6 +1,8 @@
 #BlueJ class context
 comment0.params=
 comment0.target=Tennis()
+comment0.text=\n\ Default\ constructor.\ Takes\ in\ no\ parameters\n\ Calls\ super\n
 comment1.params=s\ e\ p\ t
 comment1.target=Tennis(java.lang.String,\ java.lang.String,\ int,\ int)
+comment1.text=\n\ Overloaded\ constructor\n\ This\ constructor\ takes\ in\ the\ season,\ equipment,\ number\ of\ players,\ and\ number\ of\ teams\ for\ tennis\ and\ calls\ the\ super\n\ @param\ String\ s\ -\ the\ season\ of\ the\ sport\n\ @param\ String\ e\ -\ the\ equipment\ for\ the\ sport\n\ @param\ int\ p\ -\ the\ number\ of\ players\n\ @param\ int\ t\ -\ the\ number\ of\ teams\n
 numComments=2

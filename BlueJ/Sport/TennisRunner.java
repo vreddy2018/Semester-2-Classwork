@@ -1,10 +1,7 @@
-
 /**
- * Write a description of class TennisRunner here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
+* Authors: Ami, Neil, Dhruv
+* This class is the runner file for sports
+*/
 public class TennisRunner
 {
     public static void main(String[] args)

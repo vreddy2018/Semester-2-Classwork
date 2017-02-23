@@ -1,4 +1,5 @@
 #BlueJ class context
 comment0.params=
 comment0.target=int\ totalPlayers()
+comment0.text=\n\ Returns\ the\ total\ players\ for\ the\ golf\ which\ is\ one.\ Overrides\ super\ class\ method\n\ @return\ 1\ -\ only\ one\ player\ in\ golf\n
 numComments=1
