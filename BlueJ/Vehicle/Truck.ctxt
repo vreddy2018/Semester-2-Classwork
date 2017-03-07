@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Truck()
+comment1.params=n\ m\ w
+comment1.target=Truck(int,\ int,\ int)
+comment2.params=
+comment2.target=int\ getWeight()
+comment3.params=w
+comment3.target=void\ setWeight(int)
+numComments=4

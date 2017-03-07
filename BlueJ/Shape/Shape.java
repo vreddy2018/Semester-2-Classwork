@@ -5,29 +5,22 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Shape
+public abstract class Shape implements Compare
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class Shape
-     */
-    public Shape()
+   public abstract double perimeter();
+   
+    public abstract double area();
+    public abstract void sayHell();
+    public boolean comparison(Compare c)
     {
-        // initialise instance variables
-        x = 0;
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
+       if(c instanceof Shape)
+        return area() == ((Shape) c).area();
+       else
+        return false;
+       }
+       
     public int sampleMethod(int y)
     {
-        // put your code here
-        return x + y;
-    }
+        return 0;
+        }
 }

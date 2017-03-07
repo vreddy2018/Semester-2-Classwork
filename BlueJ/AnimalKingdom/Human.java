@@ -7,7 +7,7 @@
  */
 public class Human extends Animal
 {
-    private String hairColor;
+     private String hairColor;
     
     public Human(int a, String hc)
     {
@@ -19,5 +19,13 @@ public class Human extends Animal
     {
         super();
         hairColor = "";
+    }
+    public String getHairColor()
+    {
+        return hairColor;
+    }
+    public void printSomething()
+   {
+        System.out.println("This is a human");
     }
 }

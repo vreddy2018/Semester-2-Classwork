@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Vehicle()
+comment1.params=w\ m
+comment1.target=Vehicle(int,\ int)
+comment2.params=
+comment2.target=int\ getNumWheels()
+comment3.params=
+comment3.target=int\ getMaxSpeed()
+comment4.params=n
+comment4.target=void\ setNumWheels(int)
+comment5.params=m
+comment5.target=void\ setMaxSpeed(int)
+numComments=6

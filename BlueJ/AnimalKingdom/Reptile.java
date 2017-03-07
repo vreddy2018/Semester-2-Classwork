@@ -8,9 +8,8 @@
 public class Reptile extends Animal
 {
    private int numEggs;
-   /*
-   public Reptile (int num)
+   public void printSomething()
    {
-       numEggs = num;
-    }*/
+        System.out.println("This is a reptile");
+    }
 }

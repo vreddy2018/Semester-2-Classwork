@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ sayHell()
+comment1.params=
+comment1.target=Circle()
+comment2.params=r\ p
+comment2.target=Circle(int,\ Point)
+comment3.params=
+comment3.target=int\ getRadius()
+comment4.params=
+comment4.target=Point\ getCenter()
+comment5.params=r
+comment5.target=void\ setRadius(int)
+comment6.params=c
+comment6.target=void\ setCenter(Point)
+comment7.params=x\ y
+comment7.target=void\ setCenter(int,\ int)
+comment8.params=
+comment8.target=double\ perimeter()
+comment9.params=
+comment9.target=double\ area()
+numComments=10

@@ -21,4 +21,8 @@ public class Animal
     {
         return age;
     }
+    public void printSomething()
+    {
+  System.out.println("This is an animal");
+    }
 }
